@@ -1,0 +1,109 @@
+html{overflow-x: hidden;}
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: #4C545D;
+  text-align: center;
+  margin: 0;
+}
+/* intro section */
+
+h1{font-size: 2.5rem;padding-bottom: 2%;font-weight: 600;}
+.logo-img{width:6rem;margin-bottom: 3%;}
+.intro{background-image:url("images/bg-header-desktop.png");
+padding: 6% 10%;
+background-repeat: no-repeat;
+/* to prevent the background img from repeating when we increase the ht and add some white padding to the bottom. */
+}
+
+p{width: 60%;margin: auto;
+}
+
+.downloadbtn{margin: 4% 1%;}
+.downloadbtn:hover{text-decoration: none;}
+
+
+/* feature1 section */
+.comfeatures{padding: 3% 2%;}
+.computer-img{width: inherit;}
+.feature1{padding: 3% 5%;}
+.feature-info{padding: 3.5% 0%}
+
+/* feature2 section */
+.feature2{padding: 2% 5%;}
+.devices-img{padding: 5%;}
+
+/* summary features section */
+.card-img-top{height: 3rem;width: auto;margin: auto;padding-top: 5%}
+.card{border: none;}
+.card-group{padding: 5% 2%;}
+.card-text{width:70%;}
+
+
+/* cta section */
+.brands-logo{padding: 2%;}
+.logo{padding: 4% 0%}
+/* .brands-logo img{padding: 2% 3.5%;} */
+.ctatext{width: 50%;padding-bottom: 2%}
+.cta-para{padding: 0% 10%}
+.container-fluid{padding: 0% 7%}
+
+/* footer section */
+footer{padding: 5% 2% 1%}
+.footer-logo{height:40%}
+.social-icons{padding: 2% 3%}
+.queries{text-align: left;}
+.query:hover{color: black;}
+
+
+/* BUTTONS */
+
+.iosbtn {
+	background-color:#26baa4;
+	border-radius:28px;
+	border:1px solid #fafafa;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.iosbtn:hover {
+	background-color:#29e6ca;
+  color:#ffffff;
+
+}
+.iosbtn:active {
+	position:relative;
+	top:1px;
+}
+
+.macbtn {
+	background-color:#ba79e0;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.macbtn:hover {
+	background-color:#be90db;
+  color:#ffffff;
+
+}
+.macbtn:active {
+	position:relative;
+	top:1px;
+}
+
+/* media query */
+@media (max-width:992px) {
+  .queries{text-align: center; padding-bottom: 5%};
+  h1{padding-top: 5%};
+  p{padding-top: 5%};
+}
